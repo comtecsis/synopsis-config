@@ -27,6 +27,9 @@ ext {
 	set('springCloudVersion', "Hoxton.SR1")
 }
 
+bootJar {
+    launchScript()
+}
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.cloud:spring-cloud-config-server'
