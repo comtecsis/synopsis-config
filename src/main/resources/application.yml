@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: server-config
+    name: softprogy-config
   cloud:
     config:
       server:
