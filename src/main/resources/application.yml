@@ -10,7 +10,7 @@ spring:
     config:
       server:
         native:
-          search-locations: file:////config
+          search-locations: file:///server/config
         #git:
           #uri: https://git-codecommit.us-east-2.amazonaws.com/v1/repos/kacera-config
           #username: SoftProgiGit+1-at-806200091356
