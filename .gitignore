@@ -2,6 +2,7 @@ build/
 /bin/
 *.class
 .gradle/
+.idea/
 
 # BlueJ files
 *.ctxt

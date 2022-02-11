@@ -3,16 +3,16 @@ server:
 
 spring:
   application:
-    name: softprogy-config
-  profiles:
-    active: native
+    name: server-config
+  #profiles:
+    #active: native
   cloud:
     config:
       server:
-        native:
-          search-locations: file:///server/config
-        #git:
-          #uri: https://git-codecommit.us-east-2.amazonaws.com/v1/repos/kacera-config
-          #username: SoftProgiGit+1-at-806200091356
-          #password: 0ThDenGmcn00BLLIwgQaMPzaIjom6P5eP9avz6JMulc=
+        #native:
+          #search-locations: file:///cma/009_MiniUber/02Desarrollo/09Fuentes/server-config/properties
+        git:
+          uri: https://git-codecommit.us-east-2.amazonaws.com/v1/repos/server-properties
+          username: SoftProgiGit-at-806200091356
+          password: F2zzujVUYj07T4szUdJ9qdl29KTnqdGcmm8qXMGXSz4=
       label: master
